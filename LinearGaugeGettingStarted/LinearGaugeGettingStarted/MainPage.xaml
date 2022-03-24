@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LinearGaugeGettingStarted.MainPage"
+             xmlns:gauge="clr-namespace:Syncfusion.Maui.Gauges;assembly=Syncfusion.Maui.Gauges"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <ContentPage.Content>
+        <gauge:SfLinearGauge x:Name="gauge" HorizontalOptions="Center" VerticalOptions="Center">
+            <gauge:SfLinearGauge.Ranges>
+                <gauge:LinearRange/>
+            </gauge:SfLinearGauge.Ranges>
+
+            <gauge:SfLinearGauge.MarkerPointers>
+                <gauge:LinearShapePointer Value="70"/>
+
+                <gauge:LinearContentPointer Value="80">
+                    <gauge:LinearContentPointer.Content>
+                        <Image Source="pin.png" HeightRequest="20" WidthRequest="20"/>
+                    </gauge:LinearContentPointer.Content>
+                </gauge:LinearContentPointer>
+            </gauge:SfLinearGauge.MarkerPointers>
+
+            <gauge:SfLinearGauge.BarPointers>
+                <gauge:BarPointer Value = "60"/>
+            </gauge:SfLinearGauge.BarPointers>
+        </gauge:SfLinearGauge>
+    </ContentPage.Content>
+</ContentPage>
