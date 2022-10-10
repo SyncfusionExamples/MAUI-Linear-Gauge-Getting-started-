@@ -1,6 +1,6 @@
 # MAUI Linear Gauge Getting Started
 
-This repository contains sample for how to get started with [Syncfusion .NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control. The .NET MAUI Linear Gauge is a data visualization control to display data on a linear scale.
+This repository contains sample to getting started with [Syncfusion .NET MAUI Linear Gauge](https://help.syncfusion.com/maui/linear-gauge/getting-started) control. The .NET MAUI Linear Gauge is a data visualization control to display data on a linear scale.
 
 ## Syncfusion controls
 
